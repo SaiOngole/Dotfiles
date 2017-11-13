@@ -1,0 +1,14 @@
+[alias]
+        co = checkout
+        pr = pull --rebase
+        dc = diff --cached
+		st = status
+		dfn = diff --name-only
+		shn = show --name-only
+		fa = fetch --all
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[user]
+	name =
+	email =
+[url "git@github.com:"]
+	insteadOf = https://github.com/
