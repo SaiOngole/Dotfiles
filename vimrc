@@ -35,7 +35,7 @@ set ruler                                                    " show where you ar
 set showcmd
 set smartcase                                                " case-sensitive search if any caps
 set tabstop=4                                                " actual tabs occupy 8 characters
-set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc, *.pyc
+set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc,*.pyc
 set wildmenu                                                 " show a navigable menu for tab completion
 set hlsearch
 set laststatus=2 											" always display status line in all windows
