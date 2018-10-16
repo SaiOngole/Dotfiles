@@ -1,12 +1,13 @@
 [alias]
-        co = checkout
-        pr = pull --rebase
-        dc = diff --cached
-		st = status
-		dfn = diff --name-only
-		shn = show --name-only
-		fa = fetch --all
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    co = checkout
+    pr = pull --rebase
+    dc = diff --cached
+    st = status
+    dfn = diff --name-only
+    shn = show --name-only
+    fa = fetch --all
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	ca = commit --amend
 [user]
 	name =
 	email =
